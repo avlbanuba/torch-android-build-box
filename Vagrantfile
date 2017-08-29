@@ -54,7 +54,7 @@ Vagrant.configure("2") do |config|
     popd
 
     #Build torch-android: https://github.com/soumith/torch-android#building-torch-libraries-and-java-class
-    git clone https://github.com/soumith/torch-android.git ~/torch-android
+    git clone https://github.com/avlbanuba/torch-android.git ~/torch-android
     pushd ~/torch-android
     git submodule update --init --recursive
   
